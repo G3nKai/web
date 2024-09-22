@@ -10,7 +10,7 @@ function addTask() {
         li.innerHTML = inputBox.value;
         formList.appendChild(li);
         let edit = document.createElement("img");
-        edit.src = "204-2049954_banner-download-edit-draw-svg-png-icon-free.png";
+        edit.src = "public/204-2049954_banner-download-edit-draw-svg-png-icon-free.png";
         edit.alt = "редактировать";
         li.appendChild(edit);
         let span = document.createElement("span");
